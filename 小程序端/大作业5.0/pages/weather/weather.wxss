@@ -1,0 +1,15 @@
+#btn3 {
+  position: absolute;
+  height: 100rpx;
+  top: 60%;
+  left: 19%;
+  width: 60%;
+  color: white;
+  background-color: #02ac1e;
+}
+.weather
+{
+  font-size:18px;
+}.pic{
+  margin-top: 30px;
+}

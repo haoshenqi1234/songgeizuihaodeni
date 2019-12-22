@@ -1,0 +1,25 @@
+
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"  class="swiper">
+  <block wx:for="{{imgUrls}}">
+
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" mode="heightFix"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view style="background-repeat:round;background-image:url('https://i03piccdn.sogoucdn.com/f46ed3964d03af89')">
+<view>'                                   </view>
+<button id="c1" style="opacity:{{0.9}}" bindtap="happy">HAPPY
+</button>
+<button plain="true" id="c1" style="opacity:{{0.9}}" bindtap="sad">SAD
+</button>
+<button plain="true" id="c1" style="opacity:{{0.9}}" bindtap="angry">ANGRY
+</button>
+<button plain="true" id="c1" style="opacity:{{0.9}}" bindtap="bored">BORED
+</button>
+<button plain="true" class='out' id="word"  bindtap="go">return</button>
+
+</view>
+

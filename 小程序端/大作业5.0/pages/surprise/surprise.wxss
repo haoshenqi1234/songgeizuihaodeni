@@ -1,0 +1,22 @@
+.head{
+ position: absolute;
+  height: 90rpx;
+  top: 55%;
+  left: 19%;
+  width: 60%;
+  font-size:15px;
+  text-align: center;
+  margin:10px;
+  color:rgb(0, 0, 0);
+
+
+}
+#btn{
+ position: absolute;
+  height: 100rpx;
+  top: 70%;
+  left: 19%;
+  width: 60%;
+  color: white;
+  background-color: #47acf0;
+}

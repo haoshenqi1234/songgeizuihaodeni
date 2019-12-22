@@ -1,0 +1,6 @@
+.bored
+{
+  font-size:15px;
+  text-align: center;
+  margin:10px;
+}

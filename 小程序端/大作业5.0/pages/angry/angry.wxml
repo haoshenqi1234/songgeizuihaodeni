@@ -1,0 +1,35 @@
+<view style="background-repeat:round;background-image:url('http://img.club.pchome.net/kdsarticle/2014/05small/13/ad1eb624af459b4caf639ca5e0cbbfc8_1000x750.jpg')">
+<view class="angry">生气伤身体哦，听会音乐舒缓一下</view>
+<view class="free-panel">
+    <audio bindtimeupdate="MusicStart" bindended="MusicEnd" wx:for="{{MusicList}}" wx:key="{{item}}" author="{{item.author}}" controls poster="{{item.image}}" name="{{item.name}}" src='{{item.url}}'>
+      <view class="free-MusicProgress">
+        <view style="width:{{progress}}%;"></view>
+      </view>
+    </audio>
+     <audio bindtimeupdate="MusicStart" bindended="MusicEnd" wx:for="{{MusicList1}}" wx:key="{{item}}" author="{{item.author}}" controls poster="{{item.image}}" name="{{item.name}}" src='{{item.url}}'>
+      <view class="free-MusicProgress">
+        <view style="width:{{progress}}%;"></view>
+      </view>
+    </audio>
+    <audio bindtimeupdate="MusicStart" bindended="MusicEnd" wx:for="{{MusicList2}}" wx:key="{{item}}" author="{{item.author}}" controls poster="{{item.image}}" name="{{item.name}}" src='{{item.url}}'>
+      <view class="free-MusicProgress">
+        <view style="width:{{progress}}%;"></view>
+      </view>
+    </audio>
+    <audio bindtimeupdate="MusicStart" bindended="MusicEnd" wx:for="{{MusicList3}}" wx:key="{{item}}" author="{{item.author}}" controls poster="{{item.image}}" name="{{item.name}}" src='{{item.url}}'>
+      <view class="free-MusicProgress">
+        <view style="width:{{progress}}%;"></view>
+      </view>
+    </audio>
+    <audio bindtimeupdate="MusicStart" bindended="MusicEnd" wx:for="{{MusicList4}}" wx:key="{{item}}" author="{{item.author}}" controls poster="{{item.image}}" name="{{item.name}}" src='{{item.url}}'>
+      <view class="free-MusicProgress">
+        <view style="width:{{progress}}%;"></view>
+      </view>
+    </audio>
+    <audio bindtimeupdate="MusicStart" bindended="MusicEnd" wx:for="{{MusicList5}}" wx:key="{{item}}" author="{{item.author}}" controls poster="{{item.image}}" name="{{item.name}}" src='{{item.url}}'>
+      <view class="free-MusicProgress">
+        <view style="width:{{progress}}%;"></view>
+      </view>
+    </audio>
+</view>
+</view>

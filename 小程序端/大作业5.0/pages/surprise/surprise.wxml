@@ -1,0 +1,9 @@
+<!-- <view class='whole'>
+  <image class='whole' url='https://i01piccdn.sogoucdn.com/6e668a0b0dc041fc' mode='scaleToFill'></image>
+</view> -->
+<view>
+<image class="pic" src="https://i01piccdn.sogoucdn.com/6e668a0b0dc041fc"></image>
+<view class="head">选个数字并靠近mcookie吧！（点击更改）</view>
+<button  id="btn"  bindtap="send"> 当前数字为:{{a}}
+</button> 
+</view>

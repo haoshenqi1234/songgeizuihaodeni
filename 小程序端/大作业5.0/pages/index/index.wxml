@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"  class="swiper">
+  <block wx:for="{{imgUrls}}">
+
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" mode="heightFix"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view style="background-repeat:round;background-image:url('https://i01piccdn.sogoucdn.com/462d5ffd42cd5a0e')">
+<view>'                      </view>
+<button id="c1" style="opacity:{{0.9}}" bindtap="mood">今天心情如何？
+</button>
+<button plain="true" id="c1" style="opacity:{{0.9}}" bindtap="weather">天气了解一下？
+</button>
+<button plain="true" 
+id="c1" style="opacity:{{0.9}}"bindtap="board">一块好用的记事板
+</button>
+<button plain="true" 
+id="c1" style="opacity:{{0.9}}"bindtap="surprise">惊喜戳这里
+</button>
+
+
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+</view>
+</view>

@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mood/mood",
+    "pages/angry/angry",
+    "pages/bored/bored",
+    "pages/happy/happy",
+    "pages/sad/sad",
+    "pages/weather/weather",
+    "pages/surprise/surprise"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "送给最好的你",
+    "navigationBarTextStyle": "black"
+  },
+ 
+  "sitemapLocation": "sitemap.json"
+}

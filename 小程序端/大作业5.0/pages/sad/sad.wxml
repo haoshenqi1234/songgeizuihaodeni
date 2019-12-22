@@ -1,0 +1,35 @@
+<view style="background-repeat:round;background-image:url('https://i02piccdn.sogoucdn.com/6fc7d6f85d466ad8')">
+<view class="sad">保持乐观心态，冬天来了，春天还会远吗</view>
+<view class="free-panel">
+    <audio bindtimeupdate="MusicStart" bindended="MusicEnd" wx:for="{{MusicList}}" wx:key="{{item}}" author="{{item.author}}" controls poster="{{item.image}}" name="{{item.name}}" src='{{item.url}}'>
+      <view class="free-MusicProgress">
+        <view style="width:{{progress}}%;"></view>
+      </view>
+    </audio>
+     <audio bindtimeupdate="MusicStart" bindended="MusicEnd" wx:for="{{MusicList1}}" wx:key="{{item}}" author="{{item.author}}" controls poster="{{item.image}}" name="{{item.name}}" src='{{item.url}}'>
+      <view class="free-MusicProgress">
+        <view style="width:{{progress}}%;"></view>
+      </view>
+    </audio>
+    <audio bindtimeupdate="MusicStart" bindended="MusicEnd" wx:for="{{MusicList2}}" wx:key="{{item}}" author="{{item.author}}" controls poster="{{item.image}}" name="{{item.name}}" src='{{item.url}}'>
+      <view class="free-MusicProgress">
+        <view style="width:{{progress}}%;"></view>
+      </view>
+    </audio>
+    <audio bindtimeupdate="MusicStart" bindended="MusicEnd" wx:for="{{MusicList3}}" wx:key="{{item}}" author="{{item.author}}" controls poster="{{item.image}}" name="{{item.name}}" src='{{item.url}}'>
+      <view class="free-MusicProgress">
+        <view style="width:{{progress}}%;"></view>
+      </view>
+    </audio>
+    <audio bindtimeupdate="MusicStart" bindended="MusicEnd" wx:for="{{MusicList4}}" wx:key="{{item}}" author="{{item.author}}" controls poster="{{item.image}}" name="{{item.name}}" src='{{item.url}}'>
+      <view class="free-MusicProgress">
+        <view style="width:{{progress}}%;"></view>
+      </view>
+    </audio>
+    <audio bindtimeupdate="MusicStart" bindended="MusicEnd" wx:for="{{MusicList5}}" wx:key="{{item}}" author="{{item.author}}" controls poster="{{item.image}}" name="{{item.name}}" src='{{item.url}}'>
+      <view class="free-MusicProgress">
+        <view style="width:{{progress}}%;"></view>
+      </view>
+    </audio>
+</view>
+</view>
